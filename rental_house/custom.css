@@ -1,0 +1,43 @@
+.explore{
+  background-color: yellow;
+  height: 5cm;
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+  .button {
+   width: 200px;
+   padding: 15px 0;
+   text-align: center;
+
+   margin: 20px 10px;
+   border-radius: 25px;
+   font-weight: bold;
+   border: 2px solid black;
+   background: transparent;
+   cursor: pointer;
+
+ }
+ .button:hover {
+    background-color: black;
+    color: white;
+
+  }
+ 
+    .add-to-cart-btn {
+        border-radius: 20px; /* Adjust the radius value as needed */
+        background-color: yellow;
+        color: black;
+        padding: 10px 20px; /* Adjust padding as needed */
+        border: none; /* Remove default button border */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    }
+
+    .add-to-cart-btn:hover {
+        background-color: orange; /* Change background color on hover */
+    }
+

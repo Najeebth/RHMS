@@ -1,0 +1,136 @@
+ .add-to-cart-btn {
+        border-radius: 20px; /* Adjust the radius value as needed */
+        background-color: black;
+        color: white;
+        padding: 10px 20px; /* Adjust padding as needed */
+        margin-left: 5px;
+        margin-top: 5px;
+        border: none; /* Remove default button border */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+
+    }
+
+    .add-to-cart-btn:hover {
+        background-color: orange; /* Change background color on hover */
+    }
+/* Style the sort container */
+.sort-container {
+  position: absolute;
+    /* Adjust as needed */
+  right: 30px; /* Adjust as needed */
+  
+  
+  
+}
+
+/* Style the dropdown button */
+.sort-container .dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Style the dropdown content */
+.sort-container .dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+  /* Style for the inbox container */
+.inbox {
+    width: 100%;
+}
+
+/* Style for each individual message */
+.message {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style for the message header */
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sender {
+    font-weight: bold;
+}
+
+.date {
+    color: #888;
+}
+
+/* Style for the message content */
+.message-content {
+    margin-top: 5px;
+}
+
+.message-content h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.message-content p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+
+/* Style for the custom checkbox */
+.message label {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Bold style for message content */
+.message-content.bold {
+    font-weight: bold;
+}
+/* Style the dropdown links */
+.sort-container .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.sort-container .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when the dropdown button is clicked */
+.sort-container:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+  
